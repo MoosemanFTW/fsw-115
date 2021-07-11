@@ -1,0 +1,87 @@
+{
+    "appitizers":[
+        {
+            "name": "Egg Roll",
+            "ingredients":["eggs","rice paper","veggies"],
+            "description":"A crunchy roll of veggies wrapped in a lightly fried rice paper warpper"
+        },
+        {
+            "name": "Mozzarella Sticks",
+            "ingredients":["mozzarella","bread crumbs","eggs"],
+            "description":"A stick of mozzarella cheese coated in egg and bread crumbs then fried"
+        },
+        {
+            "name": "Salad",
+            "ingredients":["Lettus","tomatoes","croutons"],
+            "description":"A light leafy salad with tomatoes and croutons. Topped with your choice of dressing"
+        }
+    ],
+    "cold sandwiches":[
+        {
+            "name": "Ham sandwich",
+            "ingredients":["ham","cheese","mayo"],
+            "description":"A roll of bread filled with ham, cheese, and mayo"
+        },
+        {
+            "name": "turkey sandwich",
+            "ingredients":["turkey","cheese","mayo"],
+            "description":"A roll of bread filled with turkey, cheese, and mayo"
+        },
+        {
+            "name": "peanutbutter and jelly sandwich",
+            "ingredients":["peanutbutter","jelly","love"],
+            "description":"Two slices of bread with peanutbutter, jelly, and a bunch of love in the middle"
+        }
+    ],
+    "hot sandwiches":[
+        {
+            "name": "panini",
+            "ingredients":["salami","cheese","tomato"],
+            "description":"Two slices of bread with salami, cheese, and tomato in the middle. Heated on a panini press"
+        },
+        {
+            "name": "meatball sub",
+            "ingredients":["meatballs","cheese","tomato sauce"],
+            "description":"A roll of bread with italian meatballs covered in tomato sauce"
+        },
+        {
+            "name": "tuna melt",
+            "ingredients":["tuna","cheese","tomato"],
+            "description":"Two slices of bread with tuna, cheese, and tomato in the middle. Heated on a panini press"
+        }
+    ],
+    "desserts":[
+        {
+            "name": "ice cream",
+            "ingredients":["milk","cream","chocolate"],
+            "description":"A bowl of vinilla ice cream covered in chocolate sauce"
+        },
+        {
+            "name": "cheese cake",
+            "ingredients":["milk","cream cheese","graham crackers"],
+            "description":"A slice of our award winning cheese cake with graham cracker crust"
+        },
+        {
+            "name": "chocolate lava cake",
+            "ingredients":["milk","cake","chocolate"],
+            "description":"A small chocolate bunt cake with chocolate sauce in the center with scoop of ice cream on top"
+        }
+    ],
+    "drinks":[
+        {
+            "name": "soda",
+            "ingredients":["soda water","syrup"],
+            "description":"A refreshing soda for a hot day"
+        },
+        {
+            "name": "chocolate milk",
+            "ingredients":["milk","chocolate syrup"],
+            "description":"A glass of milk mixed with chocolate syrup"
+        },
+        {
+            "name": "water",
+            "ingredients":["2 hydrogen","1 oxygen","*may include minerals*"],
+            "description":"A glass of natures best"
+        }
+    ]
+}
