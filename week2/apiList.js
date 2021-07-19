@@ -259,8 +259,8 @@ var characters ={
 //var list = JSON.parse(characters)
 var charactersList = document.getElementById("characters")
 
-for(var i=0; i< characters.lenght; i++){
+for(var i=0; i< characters.results.length; i++){
     var newListItem = document.createElement('li')
-    newListItem.textContent = characters.results.name[i]
+    newListItem.textContent = characters.results[i].name
     charactersList.appendChild(newListItem)
 }
