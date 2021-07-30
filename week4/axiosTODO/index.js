@@ -8,6 +8,10 @@ axios.get('http://api.bryanuniversity.edu/justinmilligan/list').then(res => cons
         for(i=0; i<res.data.length; i++){
             let item = document.createElement('h3')
             item.textContent = res.data[i].description + ' ' + 'Complete: ' +  res.data[i].isComplete
+            
+            if(res.data[i].isComplete === true){
+                item.style.textDecoration = 'line-through'
+            }
             list.appendChild(item)
         }
     })
@@ -15,11 +19,7 @@ axios.get('http://api.bryanuniversity.edu/justinmilligan/list').then(res => cons
   
 
 
-const createList = (todo) =>{
-    let item = document.createElement('h3')
-    item.textContent = todo
-    list.appendChild(item)
-}
+
 
 // button.addEventListener('click', getTodo)
 console.log(axios)
