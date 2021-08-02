@@ -1,0 +1,33 @@
+
+.navBar {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-column: 1/-1;
+    margin: 10px;
+    background:url(https://cdn.switch.com/wp-content/uploads/2020/10/bg-tagline.jpg);background-size:cover;
+    height: 50px;
+    font-family: 'Sigmar One';
+}
+body{
+    position: relative;
+    font-size: 1em;
+    font-weight: 400;
+    
+}
+#classContainer, #chuckContainer {
+    position: relative;
+    grid-column: 1/-1;
+    border: 1.5px solid rgb(90, 69, 69);
+    background:url(https://cdn.switch.com/wp-content/uploads/2020/10/bg-tagline.jpg);background-size:cover;
+    text-align: center;
+}
+.links{
+    position: relative;
+    color: blue;
+}
+.links:hover{
+    position: relative;
+    color: purple;
+}
