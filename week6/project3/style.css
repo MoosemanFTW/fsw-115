@@ -1,0 +1,56 @@
+body{
+    background-image: url(starWarsPoster.jpg);
+    background-size: contain;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+}
+#nameContainer{
+    
+    grid-column: 2/4;
+    
+}
+#planetContainer{
+    
+    grid-column: 2/4;
+}
+#filmContainer{
+    
+    grid-column: 2/4;
+}
+.container{
+    justify-content: center;
+    text-align: center;
+    background:url(lightsaber.jpg);background-size: cover;
+}
+#nameEl{
+    color: green;
+    text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+		1px 1px 0 white;
+}
+#wolrdEl{
+    color: #b45464;
+    text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+		1px 1px 0 white;
+}
+#filmtext{
+    color: black;
+    text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+		1px 1px 0 white;
+}
+#extraInfo{
+    text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+		1px 1px 0 white;
+}
