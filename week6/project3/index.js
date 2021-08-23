@@ -12,7 +12,7 @@ const getData = async () =>{
         for(i=0;i<films.length;i++){
             pendingFilms.push(axios.get(films[i]))
         }
-        Promise.all(pendingFilms)
+        await Promise.all(pendingFilms)
         .then(res =>{
             console.log(res)
             const fillerText = document.createElement('h1')
@@ -41,12 +41,13 @@ const getData = async () =>{
 getData()
 
 displayLukeData = (luke,homeworld) =>{
+    const br = document.createElement('br')
     const nameEl = document.createElement('h1')
     nameEl.setAttribute('id','nameEl')
     const extraInfoEl = document.createElement('h2')
     extraInfoEl.setAttribute('id','extraInfo')
     nameEl.textContent = `${luke.data.name}`
-    extraInfoEl.textContent = ` Eye Color: ${luke.data.eye_color} 
+    extraInfoEl.textContent = ` Eye Color: ${luke.data.eye_color} ${br}
     Hair Color: ${luke.data.hair_color} 
     Height: ${luke.data.height}`
     nameCont.appendChild(nameEl)

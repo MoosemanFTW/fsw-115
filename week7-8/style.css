@@ -1,0 +1,46 @@
+body{
+    background-image: url(deathstar.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+#container{
+    text-align: center;
+    grid-column: 3/5;
+}
+#todoForm{
+    text-align: center;
+    grid-column: 1/-1;
+}
+.remove{
+    color: red;
+    font-weight: bold;
+}
+.completebtn{
+    color: blue;
+    font-weight: bold;
+}
+.h1{
+    text-align: center;
+    grid-column: 1/-1;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+}
+.itemEl{
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+    border: solid white;
+    background-image: url(holocron.jpg);
+    
+}
+@media (max-width:768px){
+#container{
+    grid-column: 1/-1;
+}
+}
